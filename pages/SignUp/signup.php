@@ -66,7 +66,7 @@ if ($_SESSION) {
           <label>
             <input type="checkbox" value="remember-me"> Lembrar-me
           </label>
-          <p>Já possui uma conta? <a href="../Login/login.php">Login</a></p>
+          <p>Já possui uma conta? <a href="../SignIn/signin.php">Login</a></p>
         </div>
         <button class="w-100 btn btn-lg btn-primary" type="button" onclick=signup()>Criar Conta</button>
       </form>
