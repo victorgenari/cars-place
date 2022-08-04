@@ -10,7 +10,7 @@ if ($_SESSION) {
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -41,7 +41,7 @@ if ($_SESSION) {
       }
     </style>
     <!-- Custom styles for this template -->
-    <link href="../../globalStyles/signin.css" rel="stylesheet">
+    <link href="./signin.css" rel="stylesheet">
   </head>
   <body class="text-center">
     <main class="form-signin">

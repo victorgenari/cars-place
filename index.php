@@ -23,12 +23,14 @@
     >
     <!-- CSS Page -->
     <link rel="stylesheet" href="./globalStyles/global-style.css">
+    <link rel="stylesheet" href="./pages/Home/index.css">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/e8ac874b2c.js" crossorigin="anonymous"></script>
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <!-- Title -->
     <title>cArsPlace</title>
@@ -38,12 +40,14 @@
     <div class="container">
         <div class="content">
 
-            <div>
-                <a href="./pages/Creating/creating.php" class="btn btn-link">Novo veículo</a>
-            </div>
+            <div class="header-page">
+                <div>
+                    <a href="./pages/Creating/creating.php" class="btn btn-link">Novo veículo</a>
+                </div>
 
-            <div class="container">
-                <button type="button" class="btn btn-primary" onclick="logout()">Sair</button>
+                <div>
+                    <button type="button" class="btn btn-primary" onclick="logout()">Sair</button>
+                </div>
             </div>
 
             <table class="table">
@@ -70,11 +74,19 @@
                                 print "<td>".$carro['ano']."</td>";
                                 print "<td>".$carro['combustivel']."</td>";
                                 print "<td>".$carro['descricao']."</td>";
+
                                 print "<td>
-                                            <a href='./pages/ListingById/listingById.php?id=".$carro['id']."' class='btn btn-light'>Ver</a>
-                                            <button class='btn btn-warning'><a href='pages/Editing/editing.php?id=".$carro['id']."'>Editar</a></button>
-                                            <button class='btn btn-danger' onclick='apagar_carro(".$carro['id'].")'>Apagar</button>
+                                            <a href='./pages/ListingById/listingById.php?id=".$carro['id']."' class='btn btn-light'>
+                                                <i class='fa-solid fa-eye'></i>
+                                            </a>
+                                            <button class='btn btn-warning'>
+                                                <a href='pages/Editing/editing.php?id=".$carro['id']."'><i class='fa-solid fa-pencil'></i></a>
+                                            </button>
+                                            <button class='btn btn-danger' onclick='apagar_carro(".$carro['id'].")'>
+                                                <i class='fa-solid fa-trash'></i>
+                                            </button>
                                         </td>";
+
                                 print "</tr>";
                             }
                         }

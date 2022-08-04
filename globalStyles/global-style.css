@@ -9,39 +9,3 @@
 .container {
     padding: 1rem;
 }
-
-.btn-link {
-    margin: 0 0 2rem 0;
-
-    border: 2px solid rgba(8, 103, 158, 0.5);
-}
-
-.btn-link {
-    text-decoration: none;
-
-    color: rgba(0, 0, 0);
-}
-
-.btn-link:hover {
-    transition: .3s;
-    cursor: pointer;
-    border: 2px solid rgba(8, 103, 158, 0.2);
-}
-
-.btn-primary {
-    margin: 1rem 0 0 0;
-}
-
-.table a {
-    padding: 0.3rem 0.5rem;
-    text-decoration: none;
-
-    border-bottom: 2px solid rgba(8, 103, 158, 0.2);
-    color: rgba(0, 0, 0);
-}
-
-.table a:hover {
-    transition: .3s;
-    cursor: pointer;
-    border-bottom: 2px solid rgba(8, 103, 158, 0.5);
-}

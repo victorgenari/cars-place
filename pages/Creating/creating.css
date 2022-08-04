@@ -1,0 +1,28 @@
+.content {
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+.btn-link {
+    margin: 0 0 2rem 0;
+
+    border: 2px solid rgba(8, 103, 158, 0.5);
+}
+
+.btn-link {
+    text-decoration: none;
+
+    color: rgba(0, 0, 0);
+}
+
+.btn-link:hover {
+    transition: .3s;
+    cursor: pointer;
+    border: 2px solid rgba(8, 103, 158, 0.2);
+}
+
+.btn-primary {
+    margin: 1rem 0 0 0;
+}

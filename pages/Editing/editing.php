@@ -25,6 +25,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- CSS Page -->
     <link rel="stylesheet" href="../../globalStyles/global-style.css">
+    <link rel="stylesheet" href="./editing.css">
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -156,6 +157,10 @@
             $("#ano").val("")
             $("#combustivel").val("")
             $("#descricao").val("")
+
+            setTimeout(() => {
+              window.location.href = "http://localhost/projetos-php/cars-place/"
+            }, 1000);
             return
           } else {
             Swal.fire({
