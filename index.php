@@ -28,6 +28,7 @@
     <script src="https://kit.fontawesome.com/e8ac874b2c.js" crossorigin="anonymous"></script>
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Alerts -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -79,14 +80,13 @@
                                             <a href='./pages/ListingById/listingById.php?id=".$carro['id']."' class='btn btn-light'>
                                                 <i class='fa-solid fa-eye'></i>
                                             </a>
-                                            <button class='btn btn-warning'>
-                                                <a href='pages/Editing/editing.php?id=".$carro['id']."'><i class='fa-solid fa-pencil'></i></a>
-                                            </button>
+                                            <a href='pages/Editing/editing.php?id=".$carro['id']."' class='btn btn-warning'>
+                                                <i class='fa-solid fa-pencil'></i>
+                                            </a>
                                             <button class='btn btn-danger' onclick='apagar_carro(".$carro['id'].")'>
                                                 <i class='fa-solid fa-trash'></i>
                                             </button>
                                         </td>";
-
                                 print "</tr>";
                             }
                         }

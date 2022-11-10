@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./creating.css">
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Alerts -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,7 +59,7 @@
                 <label for="descricao">Descrição:</label>
                 <textarea class="form-control" name="descricao" id="descricao" placeholder="Descrição"></textarea>
 
-                <button type="button" class="btn btn-primary" onclick=inserir()>Enviar</button>
+                <button type="button" class="btn btn-primary" onclick=inserir()>Cadastrar</button>
             </form>
 
         </div>

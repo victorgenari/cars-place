@@ -15,6 +15,10 @@
     margin: 0 0 2rem 0;
 }
 
+.table th:last-child {
+    width: 10rem;
+}
+
 .btn-link {
     border: 2px solid rgba(8, 103, 158, 0.5);
 }
